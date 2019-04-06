@@ -1,0 +1,31 @@
+/*--colors--*/
+
+$cBodyBackground: #ffffff;
+$cText: #ffffff;
+$cGrey: #505050;
+$cGreyDk: #202020;
+$cGreyLt: #707070;
+
+
+/*--typography--*/
+
+$baseFontSize: 14px;
+$baseLineHeight: 1.3;
+$fontIcon: 'icomoon';
+$fontRoboto: 'Roboto', sans-serif;
+$baseFont: $fontRoboto;
+
+/*--transitions--*/
+
+$baseTransition: 0.2s all ease;
+
+
+/*--icons--*/
+$icon-caret-down: "\e901";
+$icon-people: "\e900";
+$icon-filters: "\e61f";
+$icon-portfolios: "\e64b";
+$icon-menu-toggle: "\e65b";
+$icon-arrow-right: "\e7c3";
+$icon-search: "\e986";
+$icon-arrow-left: "\ea40";

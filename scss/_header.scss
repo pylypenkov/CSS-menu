@@ -1,0 +1,19 @@
+.header {
+  background-color: $cGrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  &__left,
+  &__right {
+    min-width: 50%;
+    flex-basis: 50%;
+  }
+
+  &__right {
+    padding: 0 15px;
+  }
+
+  &__left {
+    display: flex;
+  }
+}

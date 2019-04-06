@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $cBodyBackground;
+  font-family: $baseFont;
+  line-height: $baseLineHeight;
+  font-size: $baseFontSize;
+  margin: 0;
+  padding: 0;
+  color: $cText;
+}
+
+html,
+body {
+  position: relative;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*--icons--*/
+.icon {
+  font-family: $fontIcon;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caret-down {
+  &:before {
+    content: $icon-caret-down;
+  }
+}
+.icon-people {
+  &:before {
+    content: $icon-people;
+  }
+}
+.icon-filters {
+  &:before {
+    content: $icon-filters;
+  }
+}
+.icon-portfolios {
+  &:before {
+    content: $icon-portfolios;
+  }
+}
+.icon-menu-toggle {
+  &:before {
+    content: $icon-menu-toggle;
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: $icon-arrow-right;
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search;
+  }
+}
+.icon-arrow-left {
+  &:before {
+    content: $icon-arrow-left;
+  }
+}
+
